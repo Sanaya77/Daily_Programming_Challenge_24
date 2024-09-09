@@ -20,8 +20,8 @@ if(arr[j]>arr[j+1]){
 }
 
 int main(){
-    int numbers[]= {0 ,1 ,2 ,1 ,0 ,2 ,1 ,0 }; // DEFINITION OF THE ARRAY
-    int n = sizeof(numbers)/sizeof(numbers[0]); // COMMAND TO RETRIVE SIZE OF THE ARRAY
+    int numbers[]= {0 ,1 ,2 ,1 ,0 ,2 ,1 ,0 }; 
+    int n = sizeof(numbers)/sizeof(numbers[0]); 
     cout << "Unsorted array: ";
     print_array(numbers, n);
     bubble_sort(numbers, n);
